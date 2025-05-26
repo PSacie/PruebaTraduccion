@@ -17,6 +17,11 @@ import org.springframework.web.bind.annotation.*;
 public class TranslationController {
 
     private final TranslationService translationService;
+    
+    @GetMapping("/api/test")
+    public String test() {
+        return "Backend funcionando";
+    }
 
     @PostMapping
     public TranslateResponseDTO translateToSpanish(@RequestBody TranslateRequestDTO request) {
