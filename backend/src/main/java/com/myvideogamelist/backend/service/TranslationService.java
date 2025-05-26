@@ -40,7 +40,9 @@ public class TranslationService {
             );
 
             if (response.getStatusCode().is2xxSuccessful() && response.getBody() != null) {
-                String translatedText = response.getBody().get("translatedText").asText();
+            	System.out.println(">>> RESPUESTA COMPLETA: " + response.getBody());
+            	String translatedText = response.getBody().get("translatedText").asText();
+            	System.out.println(">>> TRADUCCIÓN REAL: " + translatedText);
                 return new TranslateResponseDTO(translatedText);
             } else {
                 throw new RuntimeException("La API de traducción devolvió una respuesta no válida.");
