@@ -1,4 +1,4 @@
-package com.myvideogamelist.backend.security;
+/*package com.myvideogamelist.backend.security;
 
 import java.security.Key;
 import java.util.Date;
@@ -54,4 +54,4 @@ public class JwtUtil {
         return Keys.hmacShaKeyFor(keyBytes);
     }
 
-}
+}*/
