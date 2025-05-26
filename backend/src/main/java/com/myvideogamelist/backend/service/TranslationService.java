@@ -16,7 +16,7 @@ import java.util.Map;
 public class TranslationService {
 
     private final RestTemplate restTemplate = new RestTemplate();
-    private final String TRANSLATE_API_URL = "https://libretranslate.de/translate";
+    private final String TRANSLATE_API_URL = "https://translate.astian.org/translate";
 
     public TranslateResponseDTO translateToSpanish(String text) {
         HttpHeaders headers = new HttpHeaders();
