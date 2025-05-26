@@ -46,8 +46,7 @@ public class TranslationService {
             }
 
         } catch (Exception e) {
-        	System.err.println("API no disponible, devolviendo traducción simulada");
-        	return new TranslateResponseDTO("[TRADUCIDO] " + text);
+        	throw new RuntimeException("Error al llamar a la API de traducción: " + e.getMessage());
         }
     }
 }
