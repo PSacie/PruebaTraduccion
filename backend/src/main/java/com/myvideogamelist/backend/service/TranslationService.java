@@ -46,6 +46,7 @@ public class TranslationService {
             }
 
         } catch (Exception e) {
+        	System.err.println("Error al llamar a la API de traducción: " + e.getMessage());
         	throw new RuntimeException("Error al llamar a la API de traducción: " + e.getMessage());
         }
     }
