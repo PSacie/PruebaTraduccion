@@ -1,4 +1,4 @@
-package com.myvideogamelist.backend.service;
+/*package com.myvideogamelist.backend.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -117,4 +117,4 @@ public class ScoreService {
         scoreRepository.deleteById(id);
     }
 
-}
+}*/

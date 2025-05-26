@@ -1,4 +1,4 @@
-package com.myvideogamelist.backend.service;
+/*package com.myvideogamelist.backend.service;
 
 import com.myvideogamelist.backend.dto.AuthRequest;
 import com.myvideogamelist.backend.dto.AuthResponse;
@@ -55,4 +55,4 @@ public class AuthService {
         return new AuthResponse(token, user.getId(), user.getUsername(), user.getRole().getName());
     }
 
-}
+}*/

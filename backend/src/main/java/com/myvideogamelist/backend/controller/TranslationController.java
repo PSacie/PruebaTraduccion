@@ -2,7 +2,7 @@ package com.myvideogamelist.backend.controller;
 
 import com.myvideogamelist.backend.dto.TranslateRequestDTO;
 import com.myvideogamelist.backend.dto.TranslateResponseDTO;
-import com.myvideogamelist.backend.service.GameInListService;
+//import com.myvideogamelist.backend.service.GameInListService;
 import com.myvideogamelist.backend.service.TranslationService;
 
 import lombok.RequiredArgsConstructor;

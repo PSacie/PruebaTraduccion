@@ -1,4 +1,4 @@
-package com.myvideogamelist.backend.controller;
+/*package com.myvideogamelist.backend.controller;
 
 import java.util.List;
 
@@ -83,4 +83,4 @@ public class CommentController {
         return ResponseEntity.noContent().build();
     }
 
-}
+}*/

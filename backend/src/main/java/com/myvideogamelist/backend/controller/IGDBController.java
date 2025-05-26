@@ -1,4 +1,4 @@
-package com.myvideogamelist.backend.controller;
+/*package com.myvideogamelist.backend.controller;
 
 import com.myvideogamelist.backend.service.IGDBService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,4 +19,4 @@ public class IGDBController {
     public String importGames(@RequestParam String query) {
         return igdbService.fetchAndSaveGames(query);
     }
-}
+}*/

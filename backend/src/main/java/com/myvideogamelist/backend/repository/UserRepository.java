@@ -1,4 +1,4 @@
-package com.myvideogamelist.backend.repository;
+/*package com.myvideogamelist.backend.repository;
 
 import java.util.List;
 import java.util.Optional;
@@ -13,4 +13,4 @@ public interface UserRepository extends JpaRepository<User, Long> {
 	List<User> findByUsernameContainingIgnoreCase(String username);
 	Optional<User> findByEmail(String email);
 
-}
+}*/

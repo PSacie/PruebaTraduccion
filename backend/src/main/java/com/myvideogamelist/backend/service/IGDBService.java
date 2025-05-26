@@ -1,4 +1,4 @@
-package com.myvideogamelist.backend.service;
+/*package com.myvideogamelist.backend.service;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -258,4 +258,4 @@ public class IGDBService {
         }
         return null;
     }
-}
+}*/

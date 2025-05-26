@@ -1,4 +1,4 @@
-package com.myvideogamelist.backend.controller;
+/*package com.myvideogamelist.backend.controller;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -108,4 +108,4 @@ public class GameController {
         return gameService.searchGamesByTitle(title);
     }
 
-}
+}*/

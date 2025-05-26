@@ -1,4 +1,4 @@
-package com.myvideogamelist.backend.controller;
+/*package com.myvideogamelist.backend.controller;
 
 import com.myvideogamelist.backend.dto.AuthRequest;
 import com.myvideogamelist.backend.dto.AuthResponse;
@@ -24,4 +24,4 @@ public class AuthController {
     public ResponseEntity<AuthResponse> login(@RequestBody AuthRequest request) {
         return ResponseEntity.ok(authService.login(request));
     }
-}
+}*/

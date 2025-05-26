@@ -1,4 +1,4 @@
-package com.myvideogamelist.backend.service;
+/*package com.myvideogamelist.backend.service;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -114,4 +114,4 @@ public class CommentService {
 
         commentRepository.delete(comment);
     }
-}
+}*/

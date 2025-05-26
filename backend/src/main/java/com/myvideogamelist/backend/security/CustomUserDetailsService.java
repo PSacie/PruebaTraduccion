@@ -1,4 +1,4 @@
-package com.myvideogamelist.backend.security;
+/*package com.myvideogamelist.backend.security;
 
 import com.myvideogamelist.backend.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
@@ -18,4 +18,4 @@ public class CustomUserDetailsService implements UserDetailsService {
         return userRepository.findByUsername(username)
                 .orElseThrow(() -> new UsernameNotFoundException("Usuario no encontrado: " + username));
     }
-}
+}*/

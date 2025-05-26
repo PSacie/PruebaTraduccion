@@ -1,4 +1,4 @@
-package com.myvideogamelist.backend.security;
+/*package com.myvideogamelist.backend.security;
 
 import java.io.IOException;
 import java.util.List;
@@ -105,4 +105,4 @@ public class JwtAuthFilter extends OncePerRequestFilter {
 
         filterChain.doFilter(request, response);
     }
-}
+}*/

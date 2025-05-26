@@ -1,4 +1,4 @@
-// SecurityConfig.java
+/*// SecurityConfig.java
 package com.myvideogamelist.backend.security;
 
 import org.springframework.context.annotation.Bean;
@@ -96,4 +96,4 @@ public class SecurityConfig {
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
     }
-}
+}*/

@@ -1,4 +1,4 @@
-package com.myvideogamelist.backend.security;
+/*package com.myvideogamelist.backend.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -49,4 +49,4 @@ public class SecurityUtils {
 
         return user;
     }
-}
+}*/

@@ -1,4 +1,4 @@
-package com.myvideogamelist.backend.service;
+/*package com.myvideogamelist.backend.service;
 
 import java.security.SecureRandom;
 import java.util.List;
@@ -167,4 +167,4 @@ public class UserService {
         userRepository.save(targetUser);
     }
 
-}
+}*/

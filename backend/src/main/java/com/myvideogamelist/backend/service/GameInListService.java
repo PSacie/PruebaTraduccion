@@ -1,4 +1,4 @@
-package com.myvideogamelist.backend.service;
+/*package com.myvideogamelist.backend.service;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -94,4 +94,4 @@ public class GameInListService {
             }
         }
     }
-}
+}*/

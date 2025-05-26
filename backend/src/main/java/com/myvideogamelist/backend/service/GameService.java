@@ -1,4 +1,4 @@
-package com.myvideogamelist.backend.service;
+/*package com.myvideogamelist.backend.service;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -207,4 +207,4 @@ public class GameService {
         return gameRepository.findRandomGamesWithFilters(genreValue, platformValue);
     }
 
-}
+}*/
