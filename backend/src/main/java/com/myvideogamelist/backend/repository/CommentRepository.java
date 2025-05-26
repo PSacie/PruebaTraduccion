@@ -1,4 +1,4 @@
-package com.myvideogamelist.backend.repository;
+/*package com.myvideogamelist.backend.repository;
 
 import java.util.List;
 import java.util.Optional;
@@ -18,4 +18,4 @@ public interface CommentRepository extends JpaRepository<Comment, Long> {
 	@Query("SELECT c FROM Comment c ORDER BY c.commentDate DESC")
 	List<Comment> findLatestComments(Pageable pageable);
 
-}
+}*/

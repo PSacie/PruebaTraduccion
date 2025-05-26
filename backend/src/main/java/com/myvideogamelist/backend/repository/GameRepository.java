@@ -1,4 +1,4 @@
-package com.myvideogamelist.backend.repository;
+/*package com.myvideogamelist.backend.repository;
 
 import java.util.List;
 import java.util.Optional;
@@ -36,4 +36,4 @@ public interface GameRepository extends JpaRepository<Game, Long> {
 			@Param("platform") String platform
 			);
 
-}
+}*/

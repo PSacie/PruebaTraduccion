@@ -1,4 +1,4 @@
-package com.myvideogamelist.backend.controller;
+/*package com.myvideogamelist.backend.controller;
 
 import java.util.List;
 
@@ -24,4 +24,4 @@ public class RoleController {
     public List<Role> getAllRoles() {
         return roleService.getAllRoles();
     }
-}
+}*/

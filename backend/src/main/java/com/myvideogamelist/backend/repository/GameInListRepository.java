@@ -1,4 +1,4 @@
-package com.myvideogamelist.backend.repository;
+/*package com.myvideogamelist.backend.repository;
 
 import java.util.List;
 
@@ -11,4 +11,4 @@ public interface GameInListRepository extends JpaRepository<GameInList, Long> {
 	List<GameInList> findByGameListId(Long gameListId);
 	boolean existsByGameListIdAndGameId(Long gameListId, Long gameId);
 
-}
+}*/

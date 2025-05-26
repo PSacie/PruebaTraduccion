@@ -1,8 +1,6 @@
 package com.myvideogamelist.backend.service;
 
 import com.myvideogamelist.backend.dto.TranslateResponseDTO;
-import com.myvideogamelist.backend.repository.GameRepository;
-import com.myvideogamelist.backend.repository.ScoreRepository;
 
 import lombok.RequiredArgsConstructor;
 

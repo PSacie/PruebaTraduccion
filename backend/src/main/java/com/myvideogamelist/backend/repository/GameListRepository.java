@@ -1,4 +1,4 @@
-package com.myvideogamelist.backend.repository;
+/*package com.myvideogamelist.backend.repository;
 
 import java.util.List;
 
@@ -10,4 +10,4 @@ public interface GameListRepository extends JpaRepository<GameList, Long> {
 	
 	List<GameList> findByUserId(Long userId);
 
-}
+}*/

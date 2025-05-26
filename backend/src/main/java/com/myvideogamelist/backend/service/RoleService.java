@@ -1,4 +1,4 @@
-package com.myvideogamelist.backend.service;
+/*package com.myvideogamelist.backend.service;
 
 import java.util.List;
 
@@ -18,4 +18,4 @@ public class RoleService {
     public List<Role> getAllRoles() {
         return roleRepository.findAll();
     }
-}
+}*/
