@@ -1,12 +1,12 @@
 package com.myvideogamelist.backend.service;
 
+import com.fasterxml.jackson.databind.JsonNode;
 import com.myvideogamelist.backend.dto.TranslateResponseDTO;
-
 import lombok.RequiredArgsConstructor;
-
-import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestTemplate;
 import org.springframework.http.*;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestClientException;
+import org.springframework.web.client.RestTemplate;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -27,26 +27,27 @@ public class TranslationService {
         body.put("source", "en");
         body.put("target", "es");
         body.put("format", "text");
+        body.put("api_key", "");
 
         HttpEntity<Map<String, Object>> entity = new HttpEntity<>(body, headers);
 
         try {
-            ResponseEntity<Map> response = restTemplate.exchange(
+            ResponseEntity<JsonNode> response = restTemplate.exchange(
                     TRANSLATE_API_URL,
                     HttpMethod.POST,
                     entity,
-                    Map.class
+                    JsonNode.class
             );
 
             if (response.getStatusCode().is2xxSuccessful() && response.getBody() != null) {
-                String translatedText = (String) response.getBody().get("translatedText");
+                String translatedText = response.getBody().get("translatedText").asText();
                 return new TranslateResponseDTO(translatedText);
             } else {
                 throw new RuntimeException("La API de traducción devolvió una respuesta no válida.");
             }
 
-        } catch (Exception e) {
-        	e.printStackTrace();
+        } catch (RestClientException e) {
+            e.printStackTrace();
             throw new RuntimeException("Error real: " + e.getClass().getName() + " - " + e.getMessage());
         }
     }
